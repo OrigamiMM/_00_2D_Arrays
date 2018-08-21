@@ -95,3 +95,7 @@ public class ConwaysGameOfLife extends JPanel implements ActionListener{
 		}
 	}
 }
+
+/*cd Desktop
+java -jar (Name)*/
+
