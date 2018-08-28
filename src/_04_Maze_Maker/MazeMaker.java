@@ -22,37 +22,37 @@ public class MazeMaker{
 		maze = new Maze(width, height);
 		
 		//4. select a random cell to start
-		
+		Cell randCell = maze.getCell(randGen.nextInt(maze.getWidth()),randGen.nextInt(maze.getHeight()));
 		
 		//5. call selectNextPath method with the randomly selected cell
-		
-		
+		selectNextPath(randCell);
 		return maze;
 	}
 
 	//6. Complete the selectNextPathMethod
 	private static void selectNextPath(Cell currentCell) {
+		
 		//A. mark cell as visited
-
+		currentCell.setBeenVisited(true);
 		//B. check for unvisited neighbors using the cell
-		
+		boolean visited = currentCell.hasBeenVisited();
 		//C. if has unvisited neighbors,
-		
+		if(visited == false) {
 			//C1. select one at random.
 			
 			//C2. push it to the stack
-		
+			
 			//C3. remove the wall between the two cells
-
+			
 			//C4. make the new cell the current cell and mark it as visited
 			
-			
+		}	
 		//D. if all neighbors are visited
 		
 			//D1. if the stack is not empty
 			
 				// D1a. pop a cell from the stack
-		
+				
 				// D1b. make that the current cell
 				
 			
