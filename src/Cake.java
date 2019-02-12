@@ -8,8 +8,11 @@
             
             public abstract double calcPrice(); 
             
+            public abstract boolean isReady();
+            
             public String toString() {
-                return name + "\t" + rate;
+                return name; 
+                //+ "\t" + rate;
             } 
         }
  
@@ -21,6 +24,10 @@
 		// TODO Auto-generated constructor stub
 	}
 
+	public boolean isReady() {
+		return false;
+	}
+	
 	public double calcPrice() {
 	return rate * weight;
 	}
@@ -34,6 +41,11 @@
 		this.quanitiy = quanit;
 		// TODO Auto-generated constructor stub
 	}
+	
+	public boolean isReady() {
+		return true;
+	}
+	
 	 public double calcPrice() {
 		 return rate * quanitiy; 
 	 }

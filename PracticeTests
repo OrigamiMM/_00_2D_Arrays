@@ -1,0 +1,135 @@
+1 )
+arr[1][1] = 1 * 5 + 1 = 6
+arr[1][2] = 1 * 5 + 2
+arr[1][4] = 1 * 5 + 4 = 9
+
+final answer : 9
+
+2) /////
+switch (x){
+	case(0):
+		System.out.println("cheese");
+		break;
+	
+	case(1):
+		System.out.println("pepperoni");
+		break;
+	
+	case(2):
+		system.out.println("sasague");
+		break;
+	
+	default:
+		System.out.println("ERROR");
+		break;
+}
+
+3) //////
+class CutomList<T>{
+
+
+}
+
+4) ////// 
+if(s.equals(WINTER))
+
+5)
+String reverseString(String str){
+	String nString = "";
+	for(int i = str.length(); i < 0; i--){
+		nString += str.charAt(i);
+	}
+	return nString;
+}
+
+6)
+failure!
+
+7)
+	public class Account {
+		int value;
+		public Account (int v){
+				value = v;
+		}
+	}
+
+	public class Account {
+		private int value;
+		public Account (int v){
+			if(v > 0){
+				value = v;
+			}
+		}
+	}
+
+8) 
+	class Super{}
+	class Sub extends Super{} 
+	public class Runner(){
+		public static void main(String[] args){ 
+			Super s = new Super();
+			Super t = new Sub();
+			Sub u = new Sub();
+			Sub v = new Super(); // this line is wrong, cannot make a object of the parent class
+		}
+	}
+
+9)
+	System.out.print(words[2][1])
+
+10)
+	A comment looks like this:
+	\\*comment here*\\
+
+11)REVIEW
+	for(int i = 0; i < in.length(); i++){
+		if(in.charAt(i).isUpperCase()){
+			out += in.charAt(i).lowerCase();
+		}else if (in.charAt(i).isLowerCase()){
+			out+= in.charAt(i).upperCase();
+		}else{
+			out += in.charAt(i;)
+		}
+	}
+	
+12)
+There is no catch after the try method
+
+13)
+[9][2][4][1][3][5]
+[5][3][1][4][2][9] == final answer
+
+3 times
+t = 9;
+nums[0] = 5;
+nums[5] = 9;
+
+t = 2
+nums[1] = nums [4] = 3
+nums[4] = 2
+
+14)
+each square is 50 pixel long
+
+x: 300
+y: 200
+
+15)
+public class Circle extends Shape
+
+16)
+	public void oddArray (int[] arr){
+		for(int i = 0; i < arr.length();i++){
+			if(arr[i] % 2 != 0){
+				arr[i] = 0; 
+			}
+		}
+	}
+	
+17)
+	numFun(21560)
+	
+	21560/10 == 0 //false
+	
+	(21560%10) + numFun( / 10);
+	
