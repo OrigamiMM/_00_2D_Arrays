@@ -1,5 +1,7 @@
 package _02_Pixel_Art;
 
+import java.io.Serializable;
+
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
